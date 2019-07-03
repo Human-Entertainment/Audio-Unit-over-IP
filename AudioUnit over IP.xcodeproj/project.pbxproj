@@ -51,6 +51,7 @@
 		FCA1ECC122CD41780033EA07 /* AudioUnit over IPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AudioUnit over IPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA1ECC522CD41780033EA07 /* AudioUnit_over_IPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnit_over_IPUITests.swift; sourceTree = "<group>"; };
 		FCA1ECC722CD41780033EA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA1ECD322CD41B80033EA07 /* AudioUnit over IP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AudioUnit over IP.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		FCA1EC9F22CD416D0033EA07 /* AudioUnit over IP */ = {
 			isa = PBXGroup;
 			children = (
+				FCA1ECD322CD41B80033EA07 /* AudioUnit over IP.entitlements */,
 				FCA1ECA022CD416D0033EA07 /* AppDelegate.swift */,
 				FCA1ECA222CD416D0033EA07 /* SceneDelegate.swift */,
 				FCA1ECA722CD416D0033EA07 /* ContentView.swift */,
@@ -438,7 +440,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AudioUnit over IP/AudioUnit over IP.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioUnit over IP\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = 2D7T23VV7R;
 				ENABLE_PREVIEWS = YES;
@@ -449,6 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +463,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AudioUnit over IP/AudioUnit over IP.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"AudioUnit over IP\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = 2D7T23VV7R;
 				ENABLE_PREVIEWS = YES;
@@ -469,6 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
