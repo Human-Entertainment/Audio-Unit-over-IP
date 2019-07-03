@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCA1ECA122CD416D0033EA07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECA022CD416D0033EA07 /* AppDelegate.swift */; };
+		FCA1ECA322CD416D0033EA07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECA222CD416D0033EA07 /* SceneDelegate.swift */; };
+		FCA1ECA622CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECA422CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodeld */; };
+		FCA1ECA822CD416D0033EA07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECA722CD416D0033EA07 /* ContentView.swift */; };
+		FCA1ECAA22CD41770033EA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA1ECA922CD41770033EA07 /* Assets.xcassets */; };
+		FCA1ECAD22CD41770033EA07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA1ECAC22CD41770033EA07 /* Preview Assets.xcassets */; };
+		FCA1ECB022CD41770033EA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA1ECAE22CD41770033EA07 /* LaunchScreen.storyboard */; };
+		FCA1ECBB22CD41770033EA07 /* AudioUnit_over_IPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECBA22CD41770033EA07 /* AudioUnit_over_IPTests.swift */; };
+		FCA1ECC622CD41780033EA07 /* AudioUnit_over_IPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECC522CD41780033EA07 /* AudioUnit_over_IPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCA1ECB722CD41770033EA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA1EC9522CD416D0033EA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA1EC9C22CD416D0033EA07;
+			remoteInfo = "AudioUnit over IP";
+		};
+		FCA1ECC222CD41780033EA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA1EC9522CD416D0033EA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCA1EC9C22CD416D0033EA07;
+			remoteInfo = "AudioUnit over IP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCA1EC9D22CD416D0033EA07 /* AudioUnit over IP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioUnit over IP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA1ECA022CD416D0033EA07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA1ECA222CD416D0033EA07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCA1ECA522CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioUnit_over_IP.xcdatamodel; sourceTree = "<group>"; };
+		FCA1ECA722CD416D0033EA07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCA1ECA922CD41770033EA07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA1ECAC22CD41770033EA07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCA1ECAF22CD41770033EA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA1ECB122CD41770033EA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA1ECB622CD41770033EA07 /* AudioUnit over IPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AudioUnit over IPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA1ECBA22CD41770033EA07 /* AudioUnit_over_IPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnit_over_IPTests.swift; sourceTree = "<group>"; };
+		FCA1ECBC22CD41770033EA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA1ECC122CD41780033EA07 /* AudioUnit over IPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AudioUnit over IPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA1ECC522CD41780033EA07 /* AudioUnit_over_IPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnit_over_IPUITests.swift; sourceTree = "<group>"; };
+		FCA1ECC722CD41780033EA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA1EC9A22CD416D0033EA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA1ECB322CD41770033EA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA1ECBE22CD41780033EA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCA1EC9422CD416D0033EA07 = {
+			isa = PBXGroup;
+			children = (
+				FCA1EC9F22CD416D0033EA07 /* AudioUnit over IP */,
+				FCA1ECB922CD41770033EA07 /* AudioUnit over IPTests */,
+				FCA1ECC422CD41780033EA07 /* AudioUnit over IPUITests */,
+				FCA1EC9E22CD416D0033EA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA1EC9E22CD416D0033EA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1EC9D22CD416D0033EA07 /* AudioUnit over IP.app */,
+				FCA1ECB622CD41770033EA07 /* AudioUnit over IPTests.xctest */,
+				FCA1ECC122CD41780033EA07 /* AudioUnit over IPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA1EC9F22CD416D0033EA07 /* AudioUnit over IP */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1ECA022CD416D0033EA07 /* AppDelegate.swift */,
+				FCA1ECA222CD416D0033EA07 /* SceneDelegate.swift */,
+				FCA1ECA722CD416D0033EA07 /* ContentView.swift */,
+				FCA1ECA922CD41770033EA07 /* Assets.xcassets */,
+				FCA1ECAE22CD41770033EA07 /* LaunchScreen.storyboard */,
+				FCA1ECB122CD41770033EA07 /* Info.plist */,
+				FCA1ECA422CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodeld */,
+				FCA1ECAB22CD41770033EA07 /* Preview Content */,
+			);
+			path = "AudioUnit over IP";
+			sourceTree = "<group>";
+		};
+		FCA1ECAB22CD41770033EA07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1ECAC22CD41770033EA07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCA1ECB922CD41770033EA07 /* AudioUnit over IPTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1ECBA22CD41770033EA07 /* AudioUnit_over_IPTests.swift */,
+				FCA1ECBC22CD41770033EA07 /* Info.plist */,
+			);
+			path = "AudioUnit over IPTests";
+			sourceTree = "<group>";
+		};
+		FCA1ECC422CD41780033EA07 /* AudioUnit over IPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCA1ECC522CD41780033EA07 /* AudioUnit_over_IPUITests.swift */,
+				FCA1ECC722CD41780033EA07 /* Info.plist */,
+			);
+			path = "AudioUnit over IPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA1EC9C22CD416D0033EA07 /* AudioUnit over IP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA1ECCA22CD41780033EA07 /* Build configuration list for PBXNativeTarget "AudioUnit over IP" */;
+			buildPhases = (
+				FCA1EC9922CD416D0033EA07 /* Sources */,
+				FCA1EC9A22CD416D0033EA07 /* Frameworks */,
+				FCA1EC9B22CD416D0033EA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AudioUnit over IP";
+			productName = "AudioUnit over IP";
+			productReference = FCA1EC9D22CD416D0033EA07 /* AudioUnit over IP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCA1ECB522CD41770033EA07 /* AudioUnit over IPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA1ECCD22CD41780033EA07 /* Build configuration list for PBXNativeTarget "AudioUnit over IPTests" */;
+			buildPhases = (
+				FCA1ECB222CD41770033EA07 /* Sources */,
+				FCA1ECB322CD41770033EA07 /* Frameworks */,
+				FCA1ECB422CD41770033EA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA1ECB822CD41770033EA07 /* PBXTargetDependency */,
+			);
+			name = "AudioUnit over IPTests";
+			productName = "AudioUnit over IPTests";
+			productReference = FCA1ECB622CD41770033EA07 /* AudioUnit over IPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCA1ECC022CD41780033EA07 /* AudioUnit over IPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA1ECD022CD41780033EA07 /* Build configuration list for PBXNativeTarget "AudioUnit over IPUITests" */;
+			buildPhases = (
+				FCA1ECBD22CD41780033EA07 /* Sources */,
+				FCA1ECBE22CD41780033EA07 /* Frameworks */,
+				FCA1ECBF22CD41780033EA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCA1ECC322CD41780033EA07 /* PBXTargetDependency */,
+			);
+			name = "AudioUnit over IPUITests";
+			productName = "AudioUnit over IPUITests";
+			productReference = FCA1ECC122CD41780033EA07 /* AudioUnit over IPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA1EC9522CD416D0033EA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Inuk Entertainment";
+				TargetAttributes = {
+					FCA1EC9C22CD416D0033EA07 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					FCA1ECB522CD41770033EA07 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FCA1EC9C22CD416D0033EA07;
+					};
+					FCA1ECC022CD41780033EA07 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FCA1EC9C22CD416D0033EA07;
+					};
+				};
+			};
+			buildConfigurationList = FCA1EC9822CD416D0033EA07 /* Build configuration list for PBXProject "AudioUnit over IP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA1EC9422CD416D0033EA07;
+			productRefGroup = FCA1EC9E22CD416D0033EA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA1EC9C22CD416D0033EA07 /* AudioUnit over IP */,
+				FCA1ECB522CD41770033EA07 /* AudioUnit over IPTests */,
+				FCA1ECC022CD41780033EA07 /* AudioUnit over IPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA1EC9B22CD416D0033EA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1ECB022CD41770033EA07 /* LaunchScreen.storyboard in Resources */,
+				FCA1ECAD22CD41770033EA07 /* Preview Assets.xcassets in Resources */,
+				FCA1ECAA22CD41770033EA07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA1ECB422CD41770033EA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA1ECBF22CD41780033EA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA1EC9922CD416D0033EA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1ECA622CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodeld in Sources */,
+				FCA1ECA122CD416D0033EA07 /* AppDelegate.swift in Sources */,
+				FCA1ECA822CD416D0033EA07 /* ContentView.swift in Sources */,
+				FCA1ECA322CD416D0033EA07 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA1ECB222CD41770033EA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1ECBB22CD41770033EA07 /* AudioUnit_over_IPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA1ECBD22CD41780033EA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA1ECC622CD41780033EA07 /* AudioUnit_over_IPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCA1ECB822CD41770033EA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA1EC9C22CD416D0033EA07 /* AudioUnit over IP */;
+			targetProxy = FCA1ECB722CD41770033EA07 /* PBXContainerItemProxy */;
+		};
+		FCA1ECC322CD41780033EA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCA1EC9C22CD416D0033EA07 /* AudioUnit over IP */;
+			targetProxy = FCA1ECC222CD41780033EA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCA1ECAE22CD41770033EA07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA1ECAF22CD41770033EA07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA1ECC822CD41780033EA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA1ECC922CD41780033EA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA1ECCB22CD41780033EA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AudioUnit over IP\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AudioUnit over IP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCA1ECCC22CD41780033EA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AudioUnit over IP\"/Preview\\ Content";
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AudioUnit over IP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCA1ECCE22CD41780033EA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				INFOPLIST_FILE = "AudioUnit over IPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioUnit over IP.app/AudioUnit over IP";
+			};
+			name = Debug;
+		};
+		FCA1ECCF22CD41780033EA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				INFOPLIST_FILE = "AudioUnit over IPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioUnit over IP.app/AudioUnit over IP";
+			};
+			name = Release;
+		};
+		FCA1ECD122CD41780033EA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				INFOPLIST_FILE = "AudioUnit over IPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AudioUnit over IP";
+			};
+			name = Debug;
+		};
+		FCA1ECD222CD41780033EA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				INFOPLIST_FILE = "AudioUnit over IPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AudioUnit over IP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA1EC9822CD416D0033EA07 /* Build configuration list for PBXProject "AudioUnit over IP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA1ECC822CD41780033EA07 /* Debug */,
+				FCA1ECC922CD41780033EA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA1ECCA22CD41780033EA07 /* Build configuration list for PBXNativeTarget "AudioUnit over IP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA1ECCB22CD41780033EA07 /* Debug */,
+				FCA1ECCC22CD41780033EA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA1ECCD22CD41780033EA07 /* Build configuration list for PBXNativeTarget "AudioUnit over IPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA1ECCE22CD41780033EA07 /* Debug */,
+				FCA1ECCF22CD41780033EA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA1ECD022CD41780033EA07 /* Build configuration list for PBXNativeTarget "AudioUnit over IPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA1ECD122CD41780033EA07 /* Debug */,
+				FCA1ECD222CD41780033EA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCA1ECA422CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCA1ECA522CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodel */,
+			);
+			currentVersion = FCA1ECA522CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodel */;
+			path = AudioUnit_over_IP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCA1EC9522CD416D0033EA07 /* Project object */;
+}
