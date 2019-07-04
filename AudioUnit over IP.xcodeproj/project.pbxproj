@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC61D28D22CE59D600308074 /* Co_HostsAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = FC61D28C22CE59D600308074 /* Co_HostsAudioUnit.m */; };
+		FC61D28F22CE59D600308074 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61D28E22CE59D600308074 /* AudioUnitViewController.swift */; };
+		FC61D29222CE59D600308074 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC61D29022CE59D600308074 /* MainInterface.storyboard */; };
+		FC61D29722CE59D700308074 /* Co-Hosts.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FC61D28922CE59D600308074 /* Co-Hosts.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FCA1ECA122CD416D0033EA07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECA022CD416D0033EA07 /* AppDelegate.swift */; };
 		FCA1ECA322CD416D0033EA07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECA222CD416D0033EA07 /* SceneDelegate.swift */; };
 		FCA1ECA622CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCA1ECA422CD416D0033EA07 /* AudioUnit_over_IP.xcdatamodeld */; };
@@ -19,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FC61D29522CE59D700308074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCA1EC9522CD416D0033EA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC61D28822CE59D600308074;
+			remoteInfo = "Co-Hosts";
+		};
 		FCA1ECB722CD41770033EA07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FCA1EC9522CD416D0033EA07 /* Project object */;
@@ -35,7 +46,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FC61D29822CE59D700308074 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FC61D29722CE59D700308074 /* Co-Hosts.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FC61D28922CE59D600308074 /* Co-Hosts.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Co-Hosts.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC61D28B22CE59D600308074 /* Co_HostsAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Co_HostsAudioUnit.h; sourceTree = "<group>"; };
+		FC61D28C22CE59D600308074 /* Co_HostsAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Co_HostsAudioUnit.m; sourceTree = "<group>"; };
+		FC61D28E22CE59D600308074 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		FC61D29122CE59D600308074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FC61D29322CE59D700308074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC61D29422CE59D700308074 /* Co_Hosts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Co_Hosts-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC61D29C22CE59DF00308074 /* Co-Hosts.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Co-Hosts.entitlements"; sourceTree = "<group>"; };
 		FCA1EC9D22CD416D0033EA07 /* AudioUnit over IP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioUnit over IP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA1ECA022CD416D0033EA07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCA1ECA222CD416D0033EA07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FC61D28622CE59D600308074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCA1EC9A22CD416D0033EA07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,12 +119,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC61D28A22CE59D600308074 /* Co-Hosts */ = {
+			isa = PBXGroup;
+			children = (
+				FC61D29C22CE59DF00308074 /* Co-Hosts.entitlements */,
+				FC61D28B22CE59D600308074 /* Co_HostsAudioUnit.h */,
+				FC61D28C22CE59D600308074 /* Co_HostsAudioUnit.m */,
+				FC61D28E22CE59D600308074 /* AudioUnitViewController.swift */,
+				FC61D29022CE59D600308074 /* MainInterface.storyboard */,
+				FC61D29322CE59D700308074 /* Info.plist */,
+				FC61D29422CE59D700308074 /* Co_Hosts-Bridging-Header.h */,
+			);
+			path = "Co-Hosts";
+			sourceTree = "<group>";
+		};
 		FCA1EC9422CD416D0033EA07 = {
 			isa = PBXGroup;
 			children = (
 				FCA1EC9F22CD416D0033EA07 /* AudioUnit over IP */,
 				FCA1ECB922CD41770033EA07 /* AudioUnit over IPTests */,
 				FCA1ECC422CD41780033EA07 /* AudioUnit over IPUITests */,
+				FC61D28A22CE59D600308074 /* Co-Hosts */,
 				FCA1EC9E22CD416D0033EA07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +150,7 @@
 				FCA1EC9D22CD416D0033EA07 /* AudioUnit over IP.app */,
 				FCA1ECB622CD41770033EA07 /* AudioUnit over IPTests.xctest */,
 				FCA1ECC122CD41780033EA07 /* AudioUnit over IPUITests.xctest */,
+				FC61D28922CE59D600308074 /* Co-Hosts.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +200,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FC61D28822CE59D600308074 /* Co-Hosts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC61D29B22CE59D700308074 /* Build configuration list for PBXNativeTarget "Co-Hosts" */;
+			buildPhases = (
+				FC61D28522CE59D600308074 /* Sources */,
+				FC61D28622CE59D600308074 /* Frameworks */,
+				FC61D28722CE59D600308074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Co-Hosts";
+			productName = "Co-Hosts";
+			productReference = FC61D28922CE59D600308074 /* Co-Hosts.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		FCA1EC9C22CD416D0033EA07 /* AudioUnit over IP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCA1ECCA22CD41780033EA07 /* Build configuration list for PBXNativeTarget "AudioUnit over IP" */;
@@ -151,10 +224,12 @@
 				FCA1EC9922CD416D0033EA07 /* Sources */,
 				FCA1EC9A22CD416D0033EA07 /* Frameworks */,
 				FCA1EC9B22CD416D0033EA07 /* Resources */,
+				FC61D29822CE59D700308074 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FC61D29622CE59D700308074 /* PBXTargetDependency */,
 			);
 			name = "AudioUnit over IP";
 			productName = "AudioUnit over IP";
@@ -207,6 +282,9 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Inuk Entertainment";
 				TargetAttributes = {
+					FC61D28822CE59D600308074 = {
+						CreatedOnToolsVersion = 11.0;
+					};
 					FCA1EC9C22CD416D0033EA07 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -236,11 +314,20 @@
 				FCA1EC9C22CD416D0033EA07 /* AudioUnit over IP */,
 				FCA1ECB522CD41770033EA07 /* AudioUnit over IPTests */,
 				FCA1ECC022CD41780033EA07 /* AudioUnit over IPUITests */,
+				FC61D28822CE59D600308074 /* Co-Hosts */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FC61D28722CE59D600308074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC61D29222CE59D600308074 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCA1EC9B22CD416D0033EA07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +355,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FC61D28522CE59D600308074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC61D28D22CE59D600308074 /* Co_HostsAudioUnit.m in Sources */,
+				FC61D28F22CE59D600308074 /* AudioUnitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCA1EC9922CD416D0033EA07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,6 +394,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FC61D29622CE59D700308074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC61D28822CE59D600308074 /* Co-Hosts */;
+			targetProxy = FC61D29522CE59D700308074 /* PBXContainerItemProxy */;
+		};
 		FCA1ECB822CD41770033EA07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FCA1EC9C22CD416D0033EA07 /* AudioUnit over IP */;
@@ -311,6 +412,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FC61D29022CE59D600308074 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC61D29122CE59D600308074 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		FCA1ECAE22CD41770033EA07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,6 +431,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FC61D29922CE59D700308074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Co-Hosts/Co-Hosts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				INFOPLIST_FILE = "Co-Hosts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IP.Co-Hosts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_UIKITFORMAC = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Co-Hosts/Co_Hosts-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC61D29A22CE59D700308074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Co-Hosts/Co-Hosts.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = 2D7T23VV7R;
+				INFOPLIST_FILE = "Co-Hosts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.inuk.AudioUnit-over-IP.Co-Hosts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_UIKITFORMAC = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Co-Hosts/Co_Hosts-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FCA1ECC822CD41780033EA07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,6 +594,7 @@
 		FCA1ECCB22CD41780033EA07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "AudioUnit over IP/AudioUnit over IP.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +618,7 @@
 		FCA1ECCC22CD41780033EA07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "AudioUnit over IP/AudioUnit over IP.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +724,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FC61D29B22CE59D700308074 /* Build configuration list for PBXNativeTarget "Co-Hosts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC61D29922CE59D700308074 /* Debug */,
+				FC61D29A22CE59D700308074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FCA1EC9822CD416D0033EA07 /* Build configuration list for PBXProject "AudioUnit over IP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
